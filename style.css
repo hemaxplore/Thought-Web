@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body.hud {
+  background: radial-gradient(circle at center, #0a1a1f, #000);
+  color: #e8ffff;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.scanlines {
+  position: fixed;
+  inset: 0;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(0,255,255,0.03),
+    rgba(0,255,255,0.03) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+  pointer-events: none;
+}
+
+.hud-center {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.core {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.core span {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  border-top-color: cyan;
+  animation: spin 4s linear infinite;
+}
+
+.core span:nth-child(2) {
+  inset: 15px;
+  animation-duration: 6s;
+}
+
+.core span:nth-child(3) {
+  inset: 30px;
+  animation-duration: 9s;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+h1 {
+  letter-spacing: 4px;
+}
+
+.ai-input {
+  display: flex;
+  gap: 10px;
+}
+
+.ai-input input {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid cyan;
+  padding: 14px;
+  color: white;
+  border-radius: 10px;
+  width: 220px;
+}
+
+.ai-input button {
+  background: cyan;
+  border: none;
+  padding: 14px 22px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.web-hud {
+  position: relative;
+  width: 360px;
+  height: 360px;
+  margin: 60px auto;
+}
+
+.center-word {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: cyan;
+  color: #000;
+  padding: 18px;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+.node {
+  position: absolute;
+  padding: 10px 16px;
+  border-radius: 20px;
+  border: 1px solid cyan;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.node:hover,
+.node.active {
+  background: cyan;
+  color: #000;
+  box-shadow: 0 0 20px cyan;
+}
+
+.top { top: 0; left: 50%; transform: translateX(-50%); }
+.left { left: 0; top: 50%; transform: translateY(-50%); }
+.bottom { bottom: 0; left: 50%; transform: translateX(-50%); }
+.right { right: 0; top: 50%; transform: translateY(-50%); }
+.diag { top: 15%; right: 15%; }
+
+.info-panel {
+  max-width: 900px;
+  margin: 20px auto 0 auto; /* small space below center word */
+  padding: 20px;
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(8px);
+  border-radius: 16px;
+  line-height: 1.8;
+  position: relative;
+  z-index: 1;
+}
+#downloadBtn {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 14px 28px;
+  background: linear-gradient(45deg, cyan, magenta, yellow, lime);
+  background-size: 300% 300%;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+  z-index: 9999;
+  transition: 0.5s;
+  box-shadow: 0 0 20px cyan;
+  animation: gradientMove 5s ease infinite;
+}
+footer {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  opacity: 0.6;
+  font-size: 0.85rem;
+}
+.nodes-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.nodes-row .node {
+  position: relative;
+  padding: 12px 20px;
+  border-radius: 20px;
+  border: 1px solid cyan;
+  background: rgba(0,255,255,0.1);
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s;
+  z-index: 1;
+}
+
+.nodes-row .node:hover {
+  transform: scale(1.05);
+}
+
+.nodes-row .node.active {
+  background: cyan;
+  color: #000;
+  box-shadow: 0 0 25px cyan;
+}
+
+/* Optional connecting line from center to each node */
+.nodes-row .node::before {
+  content: '';
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  width: 2px;
+  height: 50px;
+  background: cyan;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+#downloadBtn {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 14px 28px;
+  background: linear-gradient(45deg, cyan, magenta, yellow, lime);
+  background-size: 300% 300%;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+  z-index: 9999;
+  transition: 0.5s;
+  box-shadow: 0 0 20px cyan;
+  animation: gradientMove 5s ease infinite;
+}
+
+#downloadBtn:hover {
+  transform: translateX(-50%) scale(1.1);
+  box-shadow: 0 0 25px cyan, 0 0 50px magenta, 0 0 75px yellow;
+}
+
+@keyframes gradientMove {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  opacity: 0.6;
+  font-size: 0.85rem;
+  padding-bottom: 5px;
+}

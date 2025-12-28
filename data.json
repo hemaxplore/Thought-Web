@@ -1,0 +1,241 @@
+{
+  "ai": {
+    "definition": "Artificial Intelligence enables machines to mimic human intelligence such as learning, reasoning, and decision-making.",
+    "uses": "Healthcare diagnosis, finance fraud detection, chatbots, robotics, and smart assistants.",
+    "working": "AI works using algorithms trained on large datasets through machine learning and neural networks.",
+    "benefits": "Increases efficiency, reduces human error, automates repetitive tasks.",
+    "future": "AI will focus on ethical intelligence, human-AI collaboration, and explainable systems."
+  },
+
+  "machine learning": {
+    "definition": "Machine Learning is a subset of AI that allows systems to learn from data without explicit programming.",
+    "uses": "Prediction systems, recommendation engines, image recognition.",
+    "working": "Models learn patterns from historical data and improve with experience.",
+    "benefits": "Accurate predictions, automation, scalability.",
+    "future": "ML will power autonomous systems and personalized technologies."
+  },
+
+  "deep learning": {
+    "definition": "Deep Learning uses multi-layered neural networks to analyze complex data.",
+    "uses": "Speech recognition, computer vision, self-driving cars.",
+    "working": "Processes data through layered neural networks inspired by the human brain.",
+    "benefits": "Handles large and complex data efficiently.",
+    "future": "Deeper models with less data dependency and higher accuracy."
+  },
+
+  "data science": {
+    "definition": "Data Science extracts insights and knowledge from structured and unstructured data.",
+    "uses": "Business analytics, healthcare analysis, market prediction.",
+    "working": "Combines statistics, programming, and domain knowledge.",
+    "benefits": "Better decision-making and trend prediction.",
+    "future": "Automated data science and real-time analytics."
+  },
+
+  "big data": {
+    "definition": "Big Data refers to extremely large datasets that traditional systems cannot handle.",
+    "uses": "Customer analytics, fraud detection, IoT data processing.",
+    "working": "Uses distributed systems like Hadoop and Spark.",
+    "benefits": "Scalable data processing and insights.",
+    "future": "Faster real-time big data analytics."
+  },
+
+  "cloud computing": {
+    "definition": "Cloud computing provides on-demand computing resources over the internet.",
+    "uses": "Hosting applications, data storage, AI deployment.",
+    "working": "Resources are delivered via remote data centers.",
+    "benefits": "Scalability, cost-efficiency, flexibility.",
+    "future": "Serverless and edge cloud dominance."
+  },
+
+  "edge computing": {
+    "definition": "Edge computing processes data closer to the source instead of centralized servers.",
+    "uses": "IoT devices, smart cities, autonomous vehicles.",
+    "working": "Data is processed locally at edge nodes.",
+    "benefits": "Low latency and faster response.",
+    "future": "Widespread use in real-time systems."
+  },
+
+  "blockchain": {
+    "definition": "Blockchain is a decentralized digital ledger technology.",
+    "uses": "Cryptocurrency, smart contracts, supply chain.",
+    "working": "Transactions are stored in immutable blocks across nodes.",
+    "benefits": "Transparency, security, decentralization.",
+    "future": "Adoption beyond finance into governance."
+  },
+
+  "cryptocurrency": {
+    "definition": "Cryptocurrency is a digital currency secured by cryptography.",
+    "uses": "Digital payments, decentralized finance.",
+    "working": "Uses blockchain to validate transactions.",
+    "benefits": "Secure, decentralized, borderless.",
+    "future": "Regulated and mainstream adoption."
+  },
+
+  "cybersecurity": {
+    "definition": "Cybersecurity protects systems and networks from digital attacks.",
+    "uses": "Data protection, network security, risk management.",
+    "working": "Uses encryption, firewalls, and intrusion detection.",
+    "benefits": "Protects sensitive data and systems.",
+    "future": "AI-driven cyber defense."
+  },
+
+  "internet of things": {
+    "definition": "IoT connects physical devices to the internet for data exchange.",
+    "uses": "Smart homes, healthcare monitoring, industry automation.",
+    "working": "Devices collect and transmit data via networks.",
+    "benefits": "Automation and efficiency.",
+    "future": "Massive IoT ecosystems with AI integration."
+  },
+
+  "robotics": {
+    "definition": "Robotics deals with the design and operation of robots.",
+    "uses": "Manufacturing, healthcare surgery, space exploration.",
+    "working": "Robots combine sensors, control systems, and AI.",
+    "benefits": "Precision, efficiency, safety.",
+    "future": "Human-like intelligent robots."
+  },
+
+  "augmented reality": {
+    "definition": "AR overlays digital content onto the real world.",
+    "uses": "Gaming, education, retail visualization.",
+    "working": "Uses cameras and sensors to enhance real views.",
+    "benefits": "Enhanced user experience.",
+    "future": "AR glasses and real-world integration."
+  },
+
+  "virtual reality": {
+    "definition": "VR creates immersive simulated environments.",
+    "uses": "Gaming, training, virtual tours.",
+    "working": "Uses headsets and motion tracking.",
+    "benefits": "Immersive experience.",
+    "future": "Metaverse and virtual workplaces."
+  },
+
+  "metaverse": {
+    "definition": "The Metaverse is a shared virtual digital space.",
+    "uses": "Virtual meetings, gaming, social interaction.",
+    "working": "Combines VR, AR, blockchain, and AI.",
+    "benefits": "New digital economy.",
+    "future": "Persistent virtual worlds."
+  },
+
+  "quantum computing": {
+    "definition": "Quantum computing uses quantum mechanics to process data.",
+    "uses": "Complex simulations, cryptography.",
+    "working": "Uses qubits instead of bits.",
+    "benefits": "Exponential computing power.",
+    "future": "Breakthrough problem solving."
+  },
+
+  "5g": {
+    "definition": "5G is the fifth generation of mobile networks.",
+    "uses": "High-speed mobile internet, IoT.",
+    "working": "Uses high-frequency radio waves.",
+    "benefits": "Ultra-low latency.",
+    "future": "Foundation for smart cities."
+  },
+
+  "devops": {
+    "definition": "DevOps integrates development and operations teams.",
+    "uses": "Continuous integration and deployment.",
+    "working": "Automation and monitoring tools.",
+    "benefits": "Faster software delivery.",
+    "future": "AI-driven DevOps."
+  },
+
+  "software engineering": {
+    "definition": "Software engineering applies engineering principles to software development.",
+    "uses": "Application development, system design.",
+    "working": "Follows SDLC methodologies.",
+    "benefits": "Reliable and scalable software.",
+    "future": "AI-assisted coding."
+  },
+
+  "web development": {
+    "definition": "Web development builds and maintains websites.",
+    "uses": "Business websites, applications.",
+    "working": "Uses frontend and backend technologies.",
+    "benefits": "Global accessibility.",
+    "future": "Web3 and immersive web apps."
+  },
+
+  "mobile app development": {
+    "definition": "Developing applications for mobile devices.",
+    "uses": "Android and iOS apps.",
+    "working": "Uses native or cross-platform frameworks.",
+    "benefits": "Portable user access.",
+    "future": "AI-powered mobile apps."
+  },
+
+  "artificial neural networks": {
+    "definition": "ANNs are computing systems inspired by biological neural networks.",
+    "uses": "Pattern recognition, AI models.",
+    "working": "Uses interconnected neurons.",
+    "benefits": "Learning capability.",
+    "future": "More efficient brain-like networks."
+  },
+
+  "natural language processing": {
+    "definition": "NLP enables machines to understand human language.",
+    "uses": "Chatbots, translation, sentiment analysis.",
+    "working": "Uses linguistic and statistical models.",
+    "benefits": "Human-computer interaction.",
+    "future": "Near-human language understanding."
+  },
+
+  "computer vision": {
+    "definition": "Computer vision allows machines to interpret images and videos.",
+    "uses": "Face recognition, medical imaging.",
+    "working": "Uses image processing and ML.",
+    "benefits": "Automated visual analysis.",
+    "future": "Advanced visual intelligence."
+  },
+
+  "ethical hacking": {
+    "definition": "Ethical hacking tests systems for vulnerabilities.",
+    "uses": "Security audits, penetration testing.",
+    "working": "Simulates cyber attacks legally.",
+    "benefits": "Improves system security.",
+    "future": "AI-powered ethical hacking."
+  },
+
+  "ui ux design": {
+    "definition": "UI/UX focuses on user interface and experience design.",
+    "uses": "Website and app design.",
+    "working": "User research and prototyping.",
+    "benefits": "Better user satisfaction.",
+    "future": "AI-personalized UI."
+  },
+
+  "game development": {
+    "definition": "Game development creates interactive digital games.",
+    "uses": "Entertainment, education.",
+    "working": "Uses game engines like Unity.",
+    "benefits": "Interactive learning.",
+    "future": "VR and metaverse gaming."
+  },
+
+  "embedded systems": {
+    "definition": "Embedded systems are dedicated computer systems within devices.",
+    "uses": "Automobiles, appliances.",
+    "working": "Uses microcontrollers.",
+    "benefits": "Efficiency and reliability.",
+    "future": "Smart embedded systems."
+  },
+
+  "automation": {
+    "definition": "Automation uses technology to perform tasks with minimal human input.",
+    "uses": "Manufacturing, IT operations.",
+    "working": "Uses software and machines.",
+    "benefits": "Time and cost saving.",
+    "future": "Fully autonomous systems."
+  },
+
+  "digital transformation": {
+    "definition": "Digital transformation integrates digital technology into businesses.",
+    "uses": "Process optimization, innovation.",
+    "working": "Uses cloud, AI, data.",
+    "benefits": "Improved efficiency.",
+    "future": "AI-driven enterprises."
+  }
+}

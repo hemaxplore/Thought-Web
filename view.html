@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thought Web</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+
+<body class="hud">
+
+<div class="web-container">
+  <div class="center-word" id="centerWord" onclick="showAll()"></div>
+
+  <div class="nodes-row">
+    <div class="node" onclick="openNode('definition', this)">Definition</div>
+    <div class="node" onclick="openNode('uses', this)">Uses</div>
+    <div class="node" onclick="openNode('working', this)">Working</div>
+    <div class="node" onclick="openNode('benefits', this)">Benefits</div>
+    <div class="node" onclick="openNode('future', this)">Future</div>
+  </div>
+
+  <div class="info-panel" id="infoPanel">
+    Click any node or the center word to see information
+  </div>
+</div>
+
+<button id="downloadBtn" onclick="downloadPNG()">⬇ Download as PNG</button>
+
+<footer>Developed by <b>Hovarthan S</b> | An AI Innovator</footer>
+
+   <script src="script.js"></script>
+</body>
+</html>

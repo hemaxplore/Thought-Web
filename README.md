@@ -20,7 +20,7 @@ Thought Web AI is an innovative AI-powered visualization tool that maps any topi
 ---
 
 > 💡 **“Technology amplifies intelligence, visualization amplifies comprehension.”**  
-> — *Hovarthan S*
+> — *Hemadharshini R*
 
 ---
 
@@ -78,24 +78,24 @@ This project was developed to **simplify learning and understanding of technical
 
 ##  Contact Me
 
-**Hovarthan S** | *AI Innovator & Data Scientist*  
+**Hemadharshini R** | *AI Innovator & Data Scientist*  
 
 Passionate about **AI , interactive web apps, and making ideas to real systems**.  
 Focused on making **learning engaging, interactive, and visual**. 
 
 <p align="center">
   <!-- LinkedIn -->
-  <a href="https://www.linkedin.com/in/hovarthan-s-06114b281/" target="_blank">
+  <a href="https://[https://www.linkedin.com/in/hemadharshini21/]/" target="_blank">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="40" height="40" />
   </a>
   
   <!-- Email -->
-  <a href="hovarthan04@gmail.com">
+  <a href="darshinihema2102@gmail.com">
     <img src="https://img.icons8.com/color/48/000000/email.png" alt="Email" width="40" height="40" />
   </a>
   
   <!-- Phone -->
-  <a href="tel:+91 9363793810">
+  <a href="tel:+91 7092389282">
     <img src="https://img.icons8.com/color/48/000000/phone.png" alt="Phone" width="40" height="40" />
   </a>
 </p>

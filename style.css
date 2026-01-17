@@ -130,17 +130,36 @@ h1 {
 .right { right: 0; top: 50%; transform: translateY(-50%); }
 .diag { top: 15%; right: 15%; }
 
+/* 🔥 UPDATED INFO PANEL (CLEAR TEXT FIX) */
 .info-panel {
   max-width: 900px;
-  margin: 20px auto 0 auto; /* small space below center word */
-  padding: 20px;
-  background: rgba(255,255,255,0.08);
-  backdrop-filter: blur(8px);
-  border-radius: 16px;
-  line-height: 1.8;
-  position: relative;
-  z-index: 1;
+  margin: 30px auto 0 auto;
+  padding: 24px;
+
+  background: rgba(0, 30, 40, 0.85); /* stronger contrast */
+  backdrop-filter: none;
+
+  border-radius: 18px;
+  line-height: 1.9;
+  font-size: 1.05rem;
+  color: #ffffff;
+
+  box-shadow:
+    0 0 15px rgba(0,255,255,0.25),
+    inset 0 0 10px rgba(0,255,255,0.15);
+
+  text-shadow: 0 0 2px rgba(0,255,255,0.3);
 }
+
+/* Highlight headings & keywords */
+.info-panel strong,
+.info-panel h2,
+.info-panel h3 {
+  color: #00ffff;
+  letter-spacing: 1px;
+}
+
+/* Download Button */
 #downloadBtn {
   position: fixed;
   bottom: 20px;
@@ -249,4 +268,5 @@ footer {
   opacity: 0.6;
   font-size: 0.85rem;
   padding-bottom: 5px;
+
 }

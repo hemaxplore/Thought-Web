@@ -174,7 +174,7 @@ h1 {
 /* Download Button */
 #downloadBtn {
   position: fixed;
-  bottom: 60px; /* ⬅ move button UP */
+  bottom: 80px; /* ⬅ move button UP */
   left: 50%;
   transform: translateX(-50%);
   padding: 14px 28px;
@@ -286,5 +286,6 @@ footer {
   padding-bottom: 5px;
 
 }
+
 
 

@@ -35,10 +35,11 @@ body.hud {
 }
 
 .core {
-  width: 200px;
-  height: 200px;
-  position: relative;
+  width: 220px;
+  height: 220px;
+  filter: drop-shadow(0 0 25px rgba(0,255,255,0.6));
 }
+
 
 .core span {
   position: absolute;
@@ -133,22 +134,28 @@ h1 {
 /* 🔥 UPDATED INFO PANEL (CLEAR TEXT FIX) */
 .info-panel {
   max-width: 900px;
-  margin: 30px auto 0 auto;
-  padding: 24px;
+  margin: 24px auto 0 auto;
+  padding: 22px 26px;
 
-  background: rgba(0, 30, 40, 0.85); /* stronger contrast */
-  backdrop-filter: none;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(0, 40, 55, 0.95),
+      rgba(0, 20, 30, 0.88)
+    );
 
   border-radius: 18px;
-  line-height: 1.9;
-  font-size: 1.05rem;
+
+  line-height: 1.65;              /* better reading */
+  font-size: 1.02rem;
   color: #ffffff;
 
   box-shadow:
-    0 0 15px rgba(0,255,255,0.25),
-    inset 0 0 10px rgba(0,255,255,0.15);
+    0 0 12px rgba(0,255,255,0.22),
+    inset 0 0 6px rgba(0,255,255,0.12);
 
-  text-shadow: 0 0 2px rgba(0,255,255,0.3);
+  /* reduce blur for PNG clarity */
+  text-shadow: none;
 }
 
 /* Highlight headings & keywords */
@@ -157,6 +164,9 @@ h1 {
 .info-panel h3 {
   color: #00ffff;
   letter-spacing: 1px;
+  text-shadow:
+    0 0 6px rgba(0,255,255,0.6),
+    0 0 12px rgba(0,255,255,0.35);
 }
 
 /* FIX: Initial info text visibility */
@@ -169,26 +179,6 @@ h1 {
   text-shadow:
     0 0 6px rgba(0,255,255,0.6),
     0 0 12px rgba(0,255,255,0.4);
-}
-
-/* Download Button */
-#downloadBtn {
-  position: fixed;
-  bottom: 80px; /* ⬅ move button UP */
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 14px 28px;
-  background: linear-gradient(45deg, cyan, magenta, yellow, lime);
-  background-size: 300% 300%;
-  color: #000;
-  font-weight: bold;
-  border: none;
-  border-radius: 25px;
-  cursor: pointer;
-  font-size: 1rem;
-  z-index: 1000; /* high, but controlled */
-  box-shadow: 0 0 20px cyan;
-  animation: gradientMove 5s ease infinite;
 }
 
 footer {
@@ -245,9 +235,10 @@ footer {
   transform: translateX(-50%);
   z-index: -1;
 }
+
 #downloadBtn {
   position: fixed;
-  bottom: 20px;
+  bottom: 70px; /* balanced */
   left: 50%;
   transform: translateX(-50%);
   padding: 14px 28px;
@@ -258,16 +249,14 @@ footer {
   border: none;
   border-radius: 25px;
   cursor: pointer;
-  font-size: 1rem;
-  z-index: 9999;
-  transition: 0.5s;
-  box-shadow: 0 0 20px cyan;
+  font-size: 0.95rem;
+  z-index: 1000;
+  box-shadow: 0 0 12px rgba(0,255,255,0.7);
   animation: gradientMove 5s ease infinite;
 }
 
 #downloadBtn:hover {
-  transform: translateX(-50%) scale(1.1);
-  box-shadow: 0 0 25px cyan, 0 0 50px magenta, 0 0 75px yellow;
+  transform: translateX(-50%) scale(1.08);
 }
 
 @keyframes gradientMove {
@@ -286,6 +275,7 @@ footer {
   padding-bottom: 5px;
 
 }
+
 
 
 
